@@ -10,8 +10,8 @@ const features = [
 ];
 
 const technologies = [
-  "Python", "OpenAI GPT-4", "LangChain", "FastAPI", "Redis", 
-  "PostgreSQL", "Celery", "SMTP", "React", "TypeScript"
+  "Python", "OpenAI GPT-4", "LangChain", "FastAPI",
+  "Sqlite", "Groq", "React", "TypeScript"
 ];
 
 export default function EmailAutomation() {

@@ -10,8 +10,8 @@ const features = [
 ];
 
 const technologies = [
-  "Python", "OpenAI GPT-4", "LangChain", "Streamlit", "PostgreSQL", 
-  "Pandas", "Plotly", "Scikit-learn", "SQL", "React"
+  "Python", "OpenAI GPT-4", "LangChain", "Groq", "Sqlite", 
+  "Pandas", "React"
 ];
 
 export default function NorthwindAnalysis() {
@@ -99,7 +99,7 @@ export default function NorthwindAnalysis() {
               <li>Natural language to SQL conversion using GPT-4</li>
               <li>Dynamic chart generation with Plotly based on query results</li>
               <li>Time series forecasting with machine learning models</li>
-              <li>Interactive Streamlit interface for seamless user experience</li>
+              <li>Interactive React interface for seamless user experience</li>
               <li>Context-aware follow-up question suggestions</li>
             </ul>
           </div>

@@ -11,8 +11,8 @@ const features = [
 ];
 
 const technologies = [
-  "Python", "OR-Tools", "FastAPI", "React", "PostgreSQL", 
-  "Docker", "Redis", "Celery", "JWT Auth", "Material-UI"
+  "Python", "Genetic Algorithms", "FastAPI", "React", "PostgreSQL",
+  "Docker"
 ];
 
 export default function CrewRostering() {
@@ -87,7 +87,7 @@ export default function CrewRostering() {
           </CardHeader>
           <CardContent className="space-y-3">
             <p className="text-muted-foreground">
-              Powered by Google OR-Tools for constraint programming and linear optimization.
+              Powered by Gene Algorithm for constraint programming and optimization.
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-1 text-sm">
               <li>Multi-objective optimization (cost vs. satisfaction)</li>
@@ -109,35 +109,12 @@ export default function CrewRostering() {
             <ul className="list-disc list-inside text-muted-foreground space-y-1 text-sm">
               <li>FastAPI backend with async processing</li>
               <li>React frontend with real-time updates</li>
-              <li>PostgreSQL for data persistence</li>
-              <li>Redis for caching and session management</li>
             </ul>
           </CardContent>
         </Card>
       </div>
 
-      {/* Key Metrics */}
-      <Card className="mb-8 bg-gradient-card">
-        <CardHeader>
-          <CardTitle className="text-2xl text-foreground">Key Achievements</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">75%</div>
-              <div className="text-muted-foreground">Time Reduction in Scheduling</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">95%</div>
-              <div className="text-muted-foreground">Employee Satisfaction Rate</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">30%</div>
-              <div className="text-muted-foreground">Cost Savings Achieved</div>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      
 
       {/* Action Buttons */}
       <div className="flex gap-4">
