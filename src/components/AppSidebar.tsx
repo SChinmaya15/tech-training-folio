@@ -58,7 +58,7 @@ export function AppSidebar() {
       {/* Footer */}
       <div className="px-6 py-4 border-t border-border">
         <p className="text-xs text-muted-foreground">
-          AI Training Program 2024
+          AI Training Program 2025
         </p>
       </div>
     </div>

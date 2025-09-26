@@ -4,10 +4,10 @@ import { Users, Target, Award, TrendingUp } from "lucide-react";
 import heroImage from "@/assets/hero-dashboard.jpg";
 
 const stats = [
-  { icon: Users, label: "Students Trained", value: "150+" },
+  { icon: Users, label: "Students Trained", value: "44" },
   { icon: Target, label: "Projects Completed", value: "4" },
   { icon: Award, label: "Success Rate", value: "95%" },
-  { icon: TrendingUp, label: "Job Placements", value: "85%" },
+  { icon: TrendingUp, label: "Client Onboarding", value: "85%" },
 ];
 
 const projects = [
@@ -27,14 +27,14 @@ const projects = [
   },
   {
     title: "Northwind Sales Analysis",
-    description: "Comprehensive business intelligence dashboard analyzing sales patterns and customer insights.",
+    description: "Interactive sales analysis chatbot providing insights, visualizations, and future predictions from your database.",
     technologies: ["Power BI", "SQL Server", "DAX", "Python", "Pandas"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     title: "Email Automation",
-    description: "Smart email marketing automation with AI-powered personalization and analytics.",
+    description: "AI-powered system for automatic customer support responses and workflow automation.",
     technologies: ["Python", "SMTP", "Machine Learning", "Pandas", "Flask"],
     demoUrl: "#",
     githubUrl: "#",
