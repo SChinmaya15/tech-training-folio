@@ -10,6 +10,7 @@ import CrewRostering from "./pages/CrewRostering";
 import NorthwindAnalysis from "./pages/NorthwindAnalysis";
 import EmailAutomation from "./pages/EmailAutomation";
 import NotFound from "./pages/NotFound";
+import IframePage from "./IframePage";
 
 const queryClient = new QueryClient();
 
@@ -22,10 +23,11 @@ const App = () => (
         <Layout>
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="/crew-rostering" element={<IframePage url="https://crew-rostering-f.up.railway.app/" />} />    
+            <Route path="/email-automation" element={<IframePage url="http://65.2.31.178" />} />
+            <Route path="/northwind-analysis" element={<IframePage url="http://65.2.168.102:3000" />} />
             <Route path="/rag-chatbot" element={<RAGChatbot />} />
-            <Route path="/crew-rostering" element={<CrewRostering />} />
-            <Route path="/northwind-analysis" element={<NorthwindAnalysis />} />
-            <Route path="/email-automation" element={<EmailAutomation />} />
+
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

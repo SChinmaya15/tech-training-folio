@@ -10,10 +10,10 @@ import { cn } from "@/lib/utils";
 
 const navigation = [
   { name: "Dashboard", href: "/", icon: LayoutDashboard },
-  { name: "RAG Chatbot", href: "/rag-chatbot", icon: MessageSquare },
   { name: "Crew Rostering", href: "/crew-rostering", icon: Users },
-  { name: "Northwind Sales Analysis", href: "/northwind-analysis", icon: BarChart3 },
   { name: "Email Automation", href: "/email-automation", icon: Mail },
+  { name: "Northwind Sales Analysis", href: "/northwind-analysis", icon: BarChart3 },
+  { name: "RAG Chatbot", href: "/rag-chatbot", icon: MessageSquare },
 ];
 
 export function AppSidebar() {
