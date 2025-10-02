@@ -26,7 +26,7 @@ const App = () => (
             <Route path="/crew-rostering" element={<IframePage url="https://crew-rostering-f.up.railway.app/" />} />    
             <Route path="/email-automation" element={<IframePage url="http://65.2.31.178" />} />
             <Route path="/northwind-analysis" element={<IframePage url="http://65.2.168.102:3000" />} />
-            <Route path="/rag-chatbot" element={<RAGChatbot />} />
+            <Route path="/rag-chatbot" element={<IframePage url="http://35.154.194.168:8502/" />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
